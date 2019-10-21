@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .collapsible {
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .active,
+    .collapsible:hover {
+      background-color: #555;
+    }
+
+    .content {
+      padding: 10 28px;
+      display: none;
+      overflow: hidden;
+      background-color: whitesmoke;
+    }
+
+    .container {
+      border-block-color: black;
+      background-color: black;
+    }
+
+    .image_basic {
+      width: 30px;
+    }
+
+    .fa {
+      font-size: 50px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .fa:hover {
+      color: darkblue;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link type="text/css" rel="stylesheet" href="static/style.css" />
+</head>
+
+<body style="background-color: #7c7e7e" font-color="white">
+  <!-- SEPARATE -->
+  <h1>Top five</h1>
+
+  <div class="container">
+    <div class="row big-row">
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ one_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ one_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p> {{ one_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ one_vote }}
+      </div>
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ two_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ two_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ two_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ two_vote }}
+      </div>
+
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ three_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ three_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ three_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ three_vote }}
+      </div>
+    </div>
+
+    <div class="row big-row">
+      <div class="col-md-4 card">
+        <h2>
+          {{ four_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ four_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ four_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ four_vote }}
+      </div>
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ five_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ five_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ five_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ five_vote }}
+      </div>
+
+
+      <div class="col-md-4 card">
+      </div>
+    </div>
+  </div>
+
+  <!-- __________________________________________________________________________________________________________________________________________ -->
+
+  <h1>Popular</h1>
+
+  <div class="container">
+    <div class="row big-row">
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ six_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ six_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p> {{ six_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ six_vote }}
+      </div>
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ seven_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ seven_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ seven_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ seven_vote }}
+      </div>
+
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ eight_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ eight_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ eight_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ eight_vote }}
+      </div>
+    </div>
+
+    <div class="row big-row">
+      <div class="col-md-4 card">
+        <h2>
+          {{ nine_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ nine_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ nine_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ nine_vote }}
+      </div>
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ ten_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ ten_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ ten_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ ten_vote }}
+      </div>
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ eleven_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ eleven_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ eleven_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ eleven_vote }}
+      </div>
+    </div>
+  </div>
+
+  <!-- _________________________________________________________________________________________________________________________________________________ -->
+
+  <h1>Other</h1>
+
+  <div class="container">
+    <div class="row big-row">
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ twelve_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ twelve_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p> {{ twelve_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ twelve_vote }}
+      </div>
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ thireteen_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ thireteen_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ thireteen_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ thireteen_vote }}
+      </div>
+
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ fourteen_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ fourteen_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ fourteen_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ fourteen_vote }}
+      </div>
+    </div>
+
+    <div class="row big-row">
+      <div class="col-md-4 card">
+        <h2>
+          {{ fifteen_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ fifteen_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ fifteen_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ fifteen_vote }}
+      </div>
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ sixteen_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ sixteen_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ sixteen_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ sixteen_vote }}
+      </div>
+
+
+      <div class="col-md-4 card">
+        <h2>
+          {{ seventeen_title }}
+        </h2>
+        <img class="image_basic" src="http://image.tmdb.org/t/p/w185//{{ seventeen_img }}" alt="">
+        <button type="button" class="collapsible">About</button>
+        <div class="content">
+          <p>{{ seventeen_about }} </p>
+        </div>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        voted: {{ seventeen_vote }}
+      </div>
+    </div>
+  </div>
+
+
+  <!-- JAVASCRIPT PARA COLLAPSABLE POR ALGUNA RAZÓN NO LO IMPORTA SI LE HAGO SCRIPT SRC -->
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+  </script>
+
+</body>
+
+</html>
