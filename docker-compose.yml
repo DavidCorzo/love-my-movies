@@ -1,6 +1,6 @@
 version: '3'
 services:
-  web: 'love_my_movies'
+  web: 'david_corzo_love_my_movies'
     ports: 
       - '5000:5000'
     redis:

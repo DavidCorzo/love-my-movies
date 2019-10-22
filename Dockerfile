@@ -6,7 +6,7 @@ EXPOSE 5000
 CMD python ./main.py
 
 
-#MAINTAINER David Corzo <davidcorzo@ufm.edu>
+# MAINTAINER David Corzo <davidcorzo@ufm.edu>
 
 #COPY ./requirements.txt /app/requirements.txt
 #WORKDIR /app
