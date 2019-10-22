@@ -7,14 +7,18 @@ import flask
 
 def json_retrieve(url_portal):
     failiure = True
-    while failiure:
-        try:
-            content = requests.get(url_portal).text
-            failiure = False
-        except:
-            print(f"unable to get {url_portal}")
-            content = None
-            failiure = True
+    counter = 0
+    if counter < 4:
+        while failiure:
+            try:
+                content = requests.get(url_portal).text
+                failiure = False
+                counter += 1
+            except:
+                print(f"unable to get {url_portal}")
+                content = None
+                failiure = True
+                counter += 1
 
     return content
 
@@ -53,9 +57,6 @@ class OpenAndProcessAFile():
 # Class.send_html_relevant_info(master)
 
 
-
-
-
 # <div class="col-md-4">
     #     <h2>
     #       {{ two_title }}
@@ -68,8 +69,6 @@ class OpenAndProcessAFile():
     #     <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
     #     voted: {{ two_vote }}
     #   </div>
-
-
 
     #   <div class="col-md-4">
     #     <h2>
@@ -99,7 +98,6 @@ class OpenAndProcessAFile():
     #     voted: {{ four_vote }}
     #   </div>
 
-
     #   <div class="col-md-4">
     #     <h2>
     #       {{ five_title }}
@@ -112,7 +110,6 @@ class OpenAndProcessAFile():
     #     <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
     #     voted: {{ five_vote }}
     #   </div>
-
 
     #   <div class="col-md-4">
     #   </div>
