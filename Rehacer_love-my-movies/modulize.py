@@ -27,3 +27,7 @@ urls = ['https://api.themoviedb.org/3/discover/movie?api_key=4cddaca15876165c439
         "https://api.themoviedb.org/3/movie/upcoming?api_key=4cddaca15876165c4395177ea57cc102&language=en-US&page=1"  # UPCOMING MOVIES
         ]
 
+####################################################### separate #######################################################
+####################################################### separate #######################################################
+
+
