@@ -1,0 +1,25 @@
+{% comment %} {% block trending %}
+
+    {% for key,value in .items(): %}
+    <div class="container">
+        <div class="main_card">
+            <img src="Image" alt="image" style="width:100%">
+            {% if 'title' in key: %}
+            <h1>Title</h1>
+            
+            <p> Overview </p>        
+            <p>
+                <button class="love_button" type="submit" onClick="refreshPage()"> Love this movie &#128525; </button>
+                <button class="hate_button" type="submit" onCLick="refreshPage()"> Hate this movie &#x1F92E; </button>
+            </p>
+        </div>
+    </div>
+
+    {% endfor %}
+
+{% endblock trending %} {% endcomment %}
+
+
+
+<img src="Image" alt="image" style="width:100%">
+<link href="style.css" rel="stylesheet" type="text/css">

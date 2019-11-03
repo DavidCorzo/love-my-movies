@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Love-My-Movies</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+    <link rel="stylesheet" type="text/css"
+    href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+    <style>
+        section {
+        max-width: 160px;
+        height: auto;
+        border: 1px solid #a2a2a2;
+        text-align: center;
+        margin: 10px;
+        }
+
+        img {
+        width: 100%;
+        }
+
+        .parent--products {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="parent--products">
+    <section class="products">
+        <div class="product-card">
+        {% for elements in popular %}
+        <h2>{{ elements['title'] }}</h2> 
+        <div class="product-image">
+            <img src="https://picsum.photos/5416/3611?image=1082">
+        </div>
+        <button type="button" class="collapsible">Overview</button>
+            <div class="content">
+                <center>
+                    <p>{{ elements['overview'] }} </p>
+                </center>
+            </div>
+        <p>
+            <button class="love_button" type="submit" onClick="refreshPage()"> Love this movie &#128525; </button>
+            <button class="hate_button" type="submit" onCLick="refreshPage()"> Hate this movie &#x1F92E; </button>
+            voted: {{ elements['vote_count'] }}
+            {% endfor %}
+        </div>
+    </section>
+
+  
+</body>
+
+</html>
