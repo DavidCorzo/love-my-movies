@@ -1,0 +1,9 @@
+git:
+    https://github.com/DavidCorzo/love-my-movies
+
+dockerhub:
+    https://hub.docker.com/repository/docker/davidcorzo/love_my_movies
+
+git realese:
+    https://github.com/DavidCorzo/love-my-movies/releases/tag/1.0
+
