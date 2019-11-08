@@ -1,0 +1,397 @@
+{
+    "Master_upcoming": [
+        {
+            "popularity": 301.724,
+            "vote_count": 382,
+            "video": false,
+            "poster_path": "/vqzNJRH4YyquRiWxCCOH0aXggHI.jpg",
+            "id": 290859,
+            "adult": false,
+            "backdrop_path": "/rtf4vjjLZLalpOzDUi0Qd2GTUqq.jpg",
+            "original_language": "en",
+            "original_title": "Terminator: Dark Fate",
+            "genre_ids": [
+                28,
+                878
+            ],
+            "title": "Terminator: Dark Fate",
+            "vote_average": 6.6,
+            "overview": "More than two decades have passed since Sarah Connor prevented Judgment Day, changed the future, and re-wrote the fate of the human race. Dani Ramos is living a simple life in Mexico City with her brother and father when a highly advanced and deadly new Terminator \u2013 a Rev-9 \u2013 travels back through time to hunt and kill her. Dani's survival depends on her joining forces with two warriors: Grace, an enhanced super-soldier from the future, and a battle-hardened Sarah Connor. As the Rev-9 ruthlessly destroys everything and everyone in its path on the hunt for Dani, the three are led to a T-800 from Sarah\u2019s past that may be their last best hope.",
+            "release_date": "2019-11-01"
+        },
+        {
+            "popularity": 126.096,
+            "vote_count": 75,
+            "video": false,
+            "poster_path": "/4E2lyUGLEr3yH4q6kJxPkQUhX7n.jpg",
+            "id": 568012,
+            "adult": false,
+            "backdrop_path": "/iGnCzXEx0cFlUbpyAMeHwHWhPhx.jpg",
+            "original_language": "ja",
+            "original_title": "\u30ef\u30f3\u30d4\u30fc\u30b9\u30b9\u30bf\u30f3\u30d4\u30fc\u30c9",
+            "genre_ids": [
+                28,
+                12,
+                16
+            ],
+            "title": "One Piece: Stampede",
+            "vote_average": 7.5,
+            "overview": "One Piece: Stampede is a stand-alone film that celebrates the anime's 20th Anniversary and takes place outside the canon of the \"One Piece\" TV series. Monkey D. Luffy and his Straw Hat pirate crew are invited to a massive Pirate Festival that brings many of the most iconic characters from throughout the franchise to participate in competition with the Straw Hats to find Roger's treasure. It also pits the Straw Hats against a new enemy named Bullet, a former member of Roger's crew.",
+            "release_date": "2019-10-24"
+        },
+        {
+            "popularity": 121.124,
+            "vote_count": 183,
+            "video": false,
+            "poster_path": "/p69QzIBbN06aTYqRRiCOY1emNBh.jpg",
+            "id": 501170,
+            "adult": false,
+            "backdrop_path": "/ap6Zc5NDOfbZaMhkRDyghbGeLf0.jpg",
+            "original_language": "en",
+            "original_title": "Doctor Sleep",
+            "genre_ids": [
+                27
+            ],
+            "title": "Doctor Sleep",
+            "vote_average": 7,
+            "overview": "A traumatized, alcoholic Dan Torrance meets Abra, a kid who also has the ability to \"shine.\" He tries to protect her from the True Knot, a cult whose goal is to feed off of people like them in order to remain immortal.",
+            "release_date": "2019-11-08"
+        },
+        {
+            "popularity": 82.544,
+            "vote_count": 170,
+            "video": false,
+            "poster_path": "/g4z7mDmJmx23vsVg6XNWcnXb6gc.jpg",
+            "id": 480105,
+            "adult": false,
+            "backdrop_path": "/3uG3aOhEzFCjcQulsJQiAzLSrw8.jpg",
+            "original_language": "en",
+            "original_title": "47 Meters Down: Uncaged",
+            "genre_ids": [
+                12,
+                27,
+                53
+            ],
+            "title": "47 Meters Down: Uncaged",
+            "vote_average": 5,
+            "overview": "A group of backpackers diving in a ruined underwater city discover that they have stumbled into the territory of the ocean's deadliest shark species.",
+            "release_date": "2019-08-16"
+        },
+        {
+            "popularity": 76.761,
+            "vote_count": 297,
+            "video": false,
+            "poster_path": "/pIcV8XXIIvJCbtPoxF9qHMKdRr2.jpg",
+            "id": 338967,
+            "adult": false,
+            "backdrop_path": "/jCCdt0e8Xe9ttvevD4S3TSMNdH.jpg",
+            "original_language": "en",
+            "original_title": "Zombieland: Double Tap",
+            "genre_ids": [
+                28,
+                35,
+                27
+            ],
+            "title": "Zombieland: Double Tap",
+            "vote_average": 7.4,
+            "overview": "Columbus, Tallahassee, Wichita, and Little Rock move to the American heartland as they face off against evolved zombies, fellow survivors, and the growing pains of the snarky makeshift family.",
+            "release_date": "2019-10-18"
+        },
+        {
+            "popularity": 58.813,
+            "vote_count": 6,
+            "video": false,
+            "poster_path": "/xL1yNzwGSXfassYpt13hXADpz6R.jpg",
+            "id": 522162,
+            "adult": false,
+            "backdrop_path": "/1ZSjrBUHP2jm1QlQEyLGufL289q.jpg",
+            "original_language": "en",
+            "original_title": "Midway",
+            "genre_ids": [
+                28,
+                18,
+                36,
+                10752
+            ],
+            "title": "Midway",
+            "vote_average": 5,
+            "overview": "The story of the soldiers and aviators who helped turn the tide of the Second World War during the iconic Battle of Midway in June 1942.",
+            "release_date": "2019-11-08"
+        },
+        {
+            "popularity": 60.575,
+            "vote_count": 1052,
+            "video": false,
+            "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+            "id": 496243,
+            "adult": false,
+            "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+            "original_language": "ko",
+            "original_title": "\uae30\uc0dd\ucda9",
+            "genre_ids": [
+                35,
+                18,
+                53
+            ],
+            "title": "Parasite",
+            "vote_average": 8.5,
+            "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+            "release_date": "2019-10-11"
+        },
+        {
+            "popularity": 54.507,
+            "id": 549053,
+            "video": false,
+            "vote_count": 3,
+            "vote_average": 8.7,
+            "title": "Last Christmas",
+            "release_date": "2019-11-08",
+            "original_language": "en",
+            "original_title": "Last Christmas",
+            "genre_ids": [
+                35,
+                10749,
+                18
+            ],
+            "backdrop_path": "/vQYwarUtaeyDYgwmcaTJYX1yix2.jpg",
+            "adult": false,
+            "overview": "Kate is a young woman subscribed to bad decisions. Her last date with disaster? That of having accepted to work as Santa's elf for a department store. However, she meets Tom there. Her life takes a new turn. For Kate, it seems too good to be true.",
+            "poster_path": "/s9Ig9aoORT9jCuUDOCX4j1nNke6.jpg"
+        },
+        {
+            "popularity": 61.174,
+            "vote_count": 4,
+            "video": false,
+            "poster_path": "/zHQFqG0e5p9Fwhv5v6XIP9fLtYk.jpg",
+            "id": 330457,
+            "adult": false,
+            "backdrop_path": "/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg",
+            "original_language": "en",
+            "original_title": "Frozen II",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                14,
+                10402,
+                10751
+            ],
+            "title": "Frozen II",
+            "vote_average": 3.5,
+            "overview": "Elsa, Anna, Kristoff and Olaf are going far in the forest to know the truth about an ancient mystery of their kingdom.",
+            "release_date": "2019-11-22"
+        },
+        {
+            "popularity": 45.842,
+            "vote_count": 89,
+            "video": false,
+            "poster_path": "/eXH2w0Ylh706Rwj6CHFm1FKRBXG.jpg",
+            "id": 398978,
+            "adult": false,
+            "backdrop_path": "/aZ1ZqJ4uO1RK5gU5jRsO4qG7rJo.jpg",
+            "original_language": "en",
+            "original_title": "The Irishman",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "title": "The Irishman",
+            "vote_average": 8.8,
+            "overview": "World War II veteran and mob hitman Frank \"The Irishman\" Sheeran recalls his possible involvement with the slaying of union leader Jimmy Hoffa.",
+            "release_date": "2019-11-01"
+        },
+        {
+            "popularity": 41.864,
+            "vote_count": 758,
+            "video": false,
+            "poster_path": "/9kOtMOUa5HrOiIG2Z9Anv7M8AbY.jpg",
+            "id": 511987,
+            "adult": false,
+            "backdrop_path": "/lm4xH0YwFbVvTgdtau1thNK5S6J.jpg",
+            "original_language": "en",
+            "original_title": "Crawl",
+            "genre_ids": [
+                28,
+                18,
+                27,
+                53
+            ],
+            "title": "Crawl",
+            "vote_average": 6.1,
+            "overview": "When a huge hurricane hits her hometown in Florida, Haley ignores evacuation orders to look for her father. After finding him badly wounded, both are trapped by the flood. With virtually no time to escape the storm, they discover that rising water levels are the least of their problems.",
+            "release_date": "2019-07-12"
+        },
+        {
+            "popularity": 38.843,
+            "vote_count": 53,
+            "video": false,
+            "poster_path": "/fjmMu9fpqMMF17mCyLhNfkagKB0.jpg",
+            "id": 578189,
+            "adult": false,
+            "backdrop_path": "/zBAoNL50oFRCAJvEEQEKD8M48pV.jpg",
+            "original_language": "en",
+            "original_title": "Black and Blue",
+            "genre_ids": [
+                28,
+                80,
+                18
+            ],
+            "title": "Black and Blue",
+            "vote_average": 5,
+            "overview": "Exposure follows a rookie Detroit African-American female cop who stumbles upon corrupt officers who are murdering a drug dealer, an incident captured by her body cam. They pursue her through the night in an attempt to destroy the footage, but to make matters worse, they've tipped off a criminal gang that she's responsible for the dealer's death.",
+            "release_date": "2019-10-25"
+        },
+        {
+            "popularity": 39.46,
+            "vote_count": 372,
+            "video": false,
+            "poster_path": "/zBhv8rsLOfpFW2M5b6wW78Uoojs.jpg",
+            "id": 540901,
+            "adult": false,
+            "backdrop_path": "/jTab4cf4X1dJJVS4F8UOGuesvPd.jpg",
+            "original_language": "en",
+            "original_title": "Hustlers",
+            "genre_ids": [
+                35,
+                80,
+                18
+            ],
+            "title": "Hustlers",
+            "vote_average": 6.2,
+            "overview": "A crew of savvy former strip club employees band together to turn the tables on their Wall Street clients.",
+            "release_date": "2019-09-13"
+        },
+        {
+            "popularity": 30.049,
+            "vote_count": 19,
+            "video": false,
+            "poster_path": "/6ApDtO7xaWAfPqfi2IARXIzj8QS.jpg",
+            "id": 359724,
+            "adult": false,
+            "backdrop_path": "/n3UanIvmnBlH531pykuzNs4LbH6.jpg",
+            "original_language": "en",
+            "original_title": "Ford v Ferrari",
+            "genre_ids": [
+                28,
+                18
+            ],
+            "title": "Ford v Ferrari",
+            "vote_average": 7.7,
+            "overview": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.",
+            "release_date": "2019-11-15"
+        },
+        {
+            "popularity": 25.761,
+            "vote_count": 10,
+            "video": false,
+            "poster_path": "/4M6hxvrWol8R6NjNAFWtMx1Pr6v.jpg",
+            "id": 506528,
+            "adult": false,
+            "backdrop_path": "/f3Nm3sKGRrM2cVzOVPx6IevSmkS.jpg",
+            "original_language": "en",
+            "original_title": "Harriet",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "title": "Harriet",
+            "vote_average": 8.2,
+            "overview": "The story of Harriet Tubman, who helped free hundreds of slaves from the South after escaping from slavery herself in 1849.",
+            "release_date": "2019-11-01"
+        },
+        {
+            "popularity": 21.796,
+            "vote_count": 58,
+            "video": false,
+            "poster_path": "/3nk9UoepYmv1G9oP18q6JJCeYwN.jpg",
+            "id": 503919,
+            "adult": false,
+            "backdrop_path": "/qlYhhBUseMUawwbvHCdPLXvBELv.jpg",
+            "original_language": "en",
+            "original_title": "The Lighthouse",
+            "genre_ids": [
+                18,
+                14,
+                27
+            ],
+            "title": "The Lighthouse",
+            "vote_average": 8.2,
+            "overview": "The hypnotic and hallucinatory tale of two lighthouse keepers on a remote and mysterious New England island in the 1890s.",
+            "release_date": "2019-10-18"
+        },
+        {
+            "popularity": 40.162,
+            "vote_count": 0,
+            "video": false,
+            "poster_path": "/78TYB5EUYZFm1ELnOUsEY4fRFFD.jpg",
+            "id": 635425,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "zh",
+            "original_title": "\u53d7\u76ca\u4eba",
+            "genre_ids": [
+                18
+            ],
+            "title": "My Dear Liar",
+            "vote_average": 0,
+            "overview": "",
+            "release_date": "2019-11-08"
+        },
+        {
+            "popularity": 28.222,
+            "vote_count": 429,
+            "video": false,
+            "poster_path": "/fapXd3v9qTcNBTm39ZC4KUVQDNf.jpg",
+            "id": 423204,
+            "adult": false,
+            "backdrop_path": "/k2WyDw2NTUIWnuEs5gT7wgrCQg6.jpg",
+            "original_language": "en",
+            "original_title": "Angel Has Fallen",
+            "genre_ids": [
+                28
+            ],
+            "title": "Angel Has Fallen",
+            "vote_average": 5.7,
+            "overview": "After the events in the previous film, Secret Service agent Mike Banning finds himself framed for an assassination attempt on the President. Pursued by his own agency and the FBI, Banning races to clear his name and uncover the real terrorist threat which has set its sights on Air Force One.",
+            "release_date": "2019-08-23"
+        },
+        {
+            "popularity": 30.062,
+            "vote_count": 10,
+            "video": false,
+            "poster_path": "/2wm20cbkH1L8nA54Gtwfgz2hTqo.jpg",
+            "id": 504562,
+            "adult": false,
+            "backdrop_path": "/visyTVDc7SmudN85WPCQIhMpyP3.jpg",
+            "original_language": "en",
+            "original_title": "Motherless Brooklyn",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "title": "Motherless Brooklyn",
+            "vote_average": 7.9,
+            "overview": "Lionel Essrog, a private detective living with Tourette syndrome, ventures to solve the murder of his mentor and best friend \u2014 a mystery that carries him from the gin-soaked jazz clubs of Harlem to the slums of Brooklyn to the gilded halls of New York's power brokers.",
+            "release_date": "2019-11-01"
+        },
+        {
+            "popularity": 20.051,
+            "vote_count": 12,
+            "video": false,
+            "poster_path": "/mJJD5m0uHKqcWctQRcPoOuHvG6E.jpg",
+            "id": 595975,
+            "adult": false,
+            "backdrop_path": "/mh77Jn8RjumGmPywVaplP6gctL5.jpg",
+            "original_language": "fr",
+            "original_title": "La belle \u00e9poque",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "La belle \u00e9poque",
+            "vote_average": 7.2,
+            "overview": "Victor, a disillusioned sexagenarian, sees his life turned upside down on the day when Antoine, a brilliant entrepreneur, offers him a new kind of attraction: mixing theatrical artifices and historical reconstruction, this company offers his clients a chance to dive back into the era of their choice. Victor then chose to relive the most memorable week of his life: the one where, 40 years earlier, he met the great love.",
+            "release_date": "2019-11-06"
+        }
+    ]
+}
